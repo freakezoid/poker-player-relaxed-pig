@@ -4,7 +4,7 @@ class Player {
   }
 
   static betRequest(gameState, bet) {
-    bet(0);
+    bet(gamestate.current_buy_in - gamestate.players[gamestate.in_action][bet]);
   }
 
   static showdown(gameState) {
