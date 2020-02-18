@@ -4,7 +4,7 @@ class Player {
   }
 
   static betRequest(gameState, bet) {
-    bet(gamestate.players[gamestate.in_action][stack]);
+    bet(gamestate.players[gamestate.in_action].stack);
   }
 
   static showdown(gameState) {
